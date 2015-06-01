@@ -39,5 +39,18 @@
 </script>
 <script src="https://cdn.rawgit.com/bgrins/filereader.js/master/filereader.js"></script>
 <script src="/a.js"></script>
+<script type="text/javascript">
+    window.doorbellOptions = {
+        appKey: 'xE0hzKA8N6ErErTUi5LieqKFjsRbahMRa5i8ajtJp3AZEk0KKv8LJ7fypByiKD55'
+    };
+    (function(d, t) {
+        var g = d.createElement(t);
+        g.id = 'doorbellScript';
+        g.type = 'text/javascript';
+        g.async = true;
+        g.src = 'https://embed.doorbell.io/button/1454?t=' + (new Date().getTime());
+        (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(g);
+    }(document, 'script'));
+</script>
 
 </html>
